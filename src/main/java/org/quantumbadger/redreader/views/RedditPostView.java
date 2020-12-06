@@ -465,7 +465,7 @@ public final class RedditPostView extends FlingableItemView
 
 		trungRefactoredAppearance(mActivity, mCommentsButton, mCommentsButtonPref, mOuterView, mOverlayIcon, mPost, rrListItemBackgroundCol, rrPostCommentsButtonBackCol, rrPostTitleCol, rrPostTitleReadCol, subtitle, title);
 	}
-
+//comments
 	public static void trungRefactoredAppearance(BaseActivity mActivity, LinearLayout mCommentsButton, boolean mCommentsButtonPref, LinearLayout mOuterView, ImageView mOverlayIcon, RedditPreparedPost mPost, int rrListItemBackgroundCol, int rrPostCommentsButtonBackCol, int rrPostTitleCol, int rrPostTitleReadCol, TextView subtitle, TextView title) {
 
 		if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
