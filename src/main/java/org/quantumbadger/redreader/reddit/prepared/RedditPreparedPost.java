@@ -1400,7 +1400,7 @@ public final class RedditPreparedPost implements RedditChangeDataManager.Listene
 			final Context context = mBoundView.getContext();
 
 			if(context != null) {
-				mBoundView.updateAppearance();
+				RedditPostView.updateAppearance(mBoundView.mActivity, mBoundView.mCommentsButton, mBoundView.mCommentsButtonPref, mBoundView.mOuterView, mBoundView.mOverlayIcon, mBoundView.mPost, mBoundView.rrListItemBackgroundCol, mBoundView.rrPostCommentsButtonBackCol, mBoundView.rrPostTitleCol, mBoundView.rrPostTitleReadCol, mBoundView.subtitle, mBoundView.title);
 			}
 		}
 	}
